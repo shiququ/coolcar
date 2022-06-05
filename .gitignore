@@ -13,3 +13,20 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Node.js
+node_modules/
+miniprogram_npm/
+
+!**/wx/miniprogram/service/proto_gen/*.js
